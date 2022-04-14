@@ -15,6 +15,15 @@ This package implements the [es-shim API](https://github.com/es-shims/api) inter
 
 Because `Array.prototype.splice` depends on a receiver (the “this” value), the main export takes the array to operate on as the first argument.
 
+## Engines where this is needed
+
+Note: this list is not exhaustive.
+
+  - IE 8 and below, and pre-ES6 engines: `deleteCount` isn't defaulted to `length - start` until ES6
+  - Safari 5.0: sometimes it returns `undefined`
+  - Safari 7/8: sparse arrays of size 1e5 or greater break
+  - Opera 12.15: breaks on small sparse arrays
+
 ## Example
 
 ```js
