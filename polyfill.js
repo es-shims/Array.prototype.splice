@@ -1,24 +1,31 @@
 'use strict';
 
 var GetIntrinsic = require('get-intrinsic');
+
 var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
 var IsArray = require('es-abstract/2021/IsArray');
+
 var callBind = require('call-bind');
 var callBound = require('call-bind/callBound');
 
 var $Array = GetIntrinsic('%Array%');
 var max = GetIntrinsic('%Math.max%');
-var $slice = callBound('Array.prototype.slice');
-var $push = callBound('Array.prototype.push');
 
-var polyfillSparse = require('./polyfillSparse');
 var implementation = require('./implementation');
 
+var $slice = callBound('Array.prototype.slice');
+var $push = callBound('Array.prototype.push');
 var $spliceApply = callBind.apply(Array.prototype.splice);
 
 module.exports = function getPolyfill() {
 	if (!Array.prototype.splice) {
 		return implementation;
+	}
+
+	if ([0, 1, 2].splice(0).length !== 3) {
+		// IE 8 and pre-ES6 engines need this
+		return implementation;
+		// TODO: see if there's a way to write this as a wrapper around the native impl
 	}
 
 	// Safari 5.0 bug where .splice() returns undefined
@@ -91,7 +98,7 @@ module.exports = function getPolyfill() {
 	}());
 
 	if (!spliceWorksWithLargeSparseArrays || !spliceWorksWithSmallSparseArrays) {
-		return polyfillSparse;
+		return implementation;
 	}
 
 	return Array.prototype.splice;
