@@ -2,8 +2,8 @@
 
 var GetIntrinsic = require('get-intrinsic');
 
-var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
-var IsArray = require('es-abstract/2021/IsArray');
+var ToIntegerOrInfinity = require('es-abstract/2022/ToIntegerOrInfinity');
+var IsArray = require('es-abstract/2022/IsArray');
 
 var callBind = require('call-bind');
 var callBound = require('call-bind/callBound');

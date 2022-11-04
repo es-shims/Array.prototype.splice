@@ -2,17 +2,17 @@
 
 var GetIntrinsic = require('get-intrinsic');
 
-var ArraySpeciesCreate = require('es-abstract/2021/ArraySpeciesCreate');
-var clamp = require('es-abstract/2021/clamp');
-var CreateDataPropertyOrThrow = require('es-abstract/2021/CreateDataPropertyOrThrow');
-var DeletePropertyOrThrow = require('es-abstract/2021/DeletePropertyOrThrow');
-var Get = require('es-abstract/2021/Get');
-var HasProperty = require('es-abstract/2021/HasProperty');
-var LengthOfArrayLike = require('es-abstract/2021/LengthOfArrayLike');
-var Set = require('es-abstract/2021/Set');
-var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
-var ToObject = require('es-abstract/2021/ToObject');
-var ToString = require('es-abstract/2021/ToString');
+var ArraySpeciesCreate = require('es-abstract/2022/ArraySpeciesCreate');
+var clamp = require('es-abstract/2022/clamp');
+var CreateDataPropertyOrThrow = require('es-abstract/2022/CreateDataPropertyOrThrow');
+var DeletePropertyOrThrow = require('es-abstract/2022/DeletePropertyOrThrow');
+var Get = require('es-abstract/2022/Get');
+var HasProperty = require('es-abstract/2022/HasProperty');
+var LengthOfArrayLike = require('es-abstract/2022/LengthOfArrayLike');
+var Set = require('es-abstract/2022/Set');
+var ToIntegerOrInfinity = require('es-abstract/2022/ToIntegerOrInfinity');
+var ToObject = require('es-abstract/2022/ToObject');
+var ToString = require('es-abstract/2022/ToString');
 
 var forEach = require('es-abstract/helpers/forEach');
 
