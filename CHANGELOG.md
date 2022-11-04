@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.1...v1.0.2) - 2022-11-04
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`77d693c`](https://github.com/es-shims/Array.prototype.splice/commit/77d693cf4abf71e0ca29c5f2e65e5e6df883f5bd)
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`074c5a9`](https://github.com/es-shims/Array.prototype.splice/commit/074c5a94c09a6a23decc5333acac7192943ab149)
+- [actions] update rebase action to use reusable workflow [`7cc3529`](https://github.com/es-shims/Array.prototype.splice/commit/7cc352921b374af62031dcc046bbb6a2f646cc4f)
+- [Dev Deps] update `aud`, `functions-have-names`, `tape` [`832cc23`](https://github.com/es-shims/Array.prototype.splice/commit/832cc231952c3c0f0ab822b4ea0f08613e3a4a5d)
+
 ## [v1.0.1](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.0...v1.0.1) - 2022-04-13
 
 ### Commits
