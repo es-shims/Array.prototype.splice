@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.2...v1.0.3) - 2023-09-01
+
+### Commits
+
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`f24f412`](https://github.com/es-shims/Array.prototype.splice/commit/f24f412a95d935ed1a04d1f5cff76183f9046209)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`8edd988`](https://github.com/es-shims/Array.prototype.splice/commit/8edd98857487e2dfba53049bcfb4444c7d055275)
+- [actions] fix permissions [`853b8a9`](https://github.com/es-shims/Array.prototype.splice/commit/853b8a9c507128f8af0488c77b91f2d5bca8b1b1)
+
 ## [v1.0.2](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.1...v1.0.2) - 2022-11-04
 
 ### Commits
