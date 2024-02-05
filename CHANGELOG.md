@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.3...v1.0.4) - 2024-02-04
+
+### Commits
+
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `get-intrinsic` [`a3f4dfb`](https://github.com/es-shims/Array.prototype.splice/commit/a3f4dfb45601239b4fb7ae03c83e3766f2a08fa8)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`f60825e`](https://github.com/es-shims/Array.prototype.splice/commit/f60825e2d1b66376a6f03eb3272b84d606e514fe)
+- [Refactor] use `es-errors` where possible, so things that only need those do not need `get-intrinsic` [`19b46a8`](https://github.com/es-shims/Array.prototype.splice/commit/19b46a80229fd675bf43c325e72342d001a1a3f1)
+
 ## [v1.0.3](https://github.com/es-shims/Array.prototype.splice/compare/v1.0.2...v1.0.3) - 2023-09-01
 
 ### Commits
