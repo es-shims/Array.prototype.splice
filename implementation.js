@@ -26,7 +26,7 @@ var splitString = boxedString[0] !== 'a' || !(0 in boxedString);
 
 var strSplit = callBound('String.prototype.split');
 var $slice = callBound('Array.prototype.slice');
-var $TypeError = GetIntrinsic('%TypeError%');
+var $TypeError = require('es-errors/type');
 var max = GetIntrinsic('%Math.max%');
 var min = GetIntrinsic('%Math.min%');
 
