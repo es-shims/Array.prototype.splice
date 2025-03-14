@@ -16,7 +16,7 @@ var ToString = require('es-abstract/2024/ToString');
 
 var forEach = require('es-abstract/helpers/forEach');
 
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var isString = require('is-string');
 var $Object = require('es-object-atoms');
 

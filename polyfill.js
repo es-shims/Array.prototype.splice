@@ -6,7 +6,7 @@ var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
 var IsArray = require('es-abstract/2024/IsArray');
 
 var callBind = require('call-bind');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 
 var $Array = GetIntrinsic('%Array%');
 var max = GetIntrinsic('%Math.max%');
